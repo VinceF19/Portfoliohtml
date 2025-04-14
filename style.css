@@ -1,0 +1,81 @@
+body {
+    background-color: #0f0f0f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    max-width: 360px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+  }
+  
+  .card-img-top {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: -60px auto 10px;
+    box-shadow: 0 4px 25px rgba(0, 255, 255, 0.4);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.4s ease;
+    background-color: #0f0f0f;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 5px cyan, 0 0 10px cyan;
+  }
+  
+  .social-icons a {
+    color: #ccc;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: cyan;
+    transform: scale(1.2);
+  }
+  
+  .badge {
+    margin: 3px 5px;
+    font-size: 0.75rem;
+  }
+  
+  .btn {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+  }
+  
+  section {
+    margin-top: 3rem;
+  }
+  
+  .list-group-item {
+    border: none;
+    border-left: 3px solid cyan;
+    margin-bottom: 0.5rem;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }  
